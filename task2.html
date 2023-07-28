@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box Alignments</title>
+    <style>
+        *{
+            padding:0px;
+            margin:0px;
+        }
+
+        /* Header */
+
+        .header{
+            height: 80px;
+            background-color: #F1C27B;
+        }
+        ul{
+            height: 80px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            list-style-type: none;
+        }
+        ul li a{
+            text-decoration: none;
+            color:#000;
+            font-size: 20px;
+        }
+    
+        
+        /* Main  Content Area */
+
+        .main-content-area{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            min-height: 400px;
+            background-color: #E893CF;
+            padding-block: 100px;
+        }
+        .box{
+            width:200px;
+            height: 200px;
+        }
+        .box1{
+            background-color: #7A3E3E;
+        }
+        .box2{
+            background-color: #E57C23;
+        }
+        .box3{
+            background-color: #643843;
+        }
+
+        /* Footer */
+
+        .footer{
+            height: 60px;
+            background-color: #5C8984;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .footer a{
+            text-decoration: none;
+            font-size:20px;
+            font-weight: bold;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="header">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+       <div class="main-content-area">
+       <div class="box box1"></div>
+       <div class="box box2"></div>
+       <div class="box box3"></div>
+       </div>
+        <div class="footer">
+            <p><a href="#">Hero Vired</a> By RGMCET</p>
+        </div>
+    </div>
+    
+</body>
+</html>

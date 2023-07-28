@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positioning</title>
+    <style>
+        *{
+            padding:0px;
+            margin:0px;
+        }
+
+        /* Outer Most Container */
+
+        .main-container {
+            width:80%;
+            height: 80vh;
+            margin: 0 auto;
+            border:2px solid #000;
+            position: relative;
+            margin-top:50px;
+        }
+
+        /* Image */
+
+        img{
+            position: absolute;
+            right:0px;
+            margin:10px;
+            border:2px solid blue;
+        }
+
+        /*  Paragraph One */
+         
+        #para1{
+            width:30%;
+            text-align: justify;
+            position: absolute;
+            bottom:0;
+            margin:15px;
+            border:2px solid red;
+        }
+
+        /* Paragraph Two */
+        #para2{
+            width:30%;
+            text-align: justify;
+            position: absolute;
+            border:2px solid green;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+           
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <img src="https://rb.gy/pd8fz" width="100" alt="Cat Image">
+        <p id="para1">
+             Paragraph 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae culpa unde, aliquid voluptates illo officiis cum, delectus placeat, veniam et adipisci. Repudiandae blanditiis dolorum nulla similique minima debitis in nihil!
+        </p>
+        <p id="para2">
+            Paragraph 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut molestias ad eum. Sed ut aliquid quae ad praesentium ea nihil optio, placeat necessitatibus id quam sunt inventore ipsa veniam deserunt.
+        </p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallary</title>
+    <style>
+        *{
+            padding:0;
+            margin: 0;
+        }
+        .image-gallary {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        img{
+            height: 150px;
+            width: 150px;
+            margin: 50px;
+            border-radius: 20px;
+            transition: all 2s ease;
+        }
+        
+        img:hover{
+            transform: scale(1.2);
+        
+        }
+    </style>
+</head>
+<body>
+    <div class="image-gallary">
+    <img src="https://shorturl.at/asyZ4" alt="nature image-1">
+    <img src="https://shorturl.at/fgjkx" alt="nature image-2">
+    <img src="https://shorturl.at/xDKX0" alt="nature image-3">
+    </div>
+    
+</body>
+</html>
